@@ -1,4 +1,4 @@
 <resources>
-    <color name="my_primary">#0b9830</color> <!-- Custom primary color -->
+    <color name="my_primary">#009B62</color> <!-- Custom primary color -->
     <color name="my_on_primary">#FFFFFF</color> <!-- Text color for buttons -->
 </resources>

@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         // Use a Handler to add a delay before transitioning to Login page
         new Handler().postDelayed(() -> {
             // Create an Intent to move to the Login activity
-            Intent intent = new Intent(MainActivity.this, Login.class);
+            Intent intent = new Intent(MainActivity.this, dashboard.class);
             startActivity(intent); // Start the Login activity
             finish(); // Close MainActivity
         }, 3000); // 3000 milliseconds (3 seconds) delay before transitioning

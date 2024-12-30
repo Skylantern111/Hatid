@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Hatid</string>
+    <string name="google_maps_api_key">AIzaSyCQInL2u7KmcIR2NDupMUmmzFLm-3RUjhI</string>
+
+        <string name="navigation_drawer_open">Open Drawer</string>
+        <string name="navigation_drawer_close">Close Drawer</string>
+
 </resources>
