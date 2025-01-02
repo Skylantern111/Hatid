@@ -13,16 +13,26 @@ public class dashboard2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard2);   // Button reference
-        Button button5 = findViewById(R.id.button5); // Make sure the ID matches your button's ID in XML
+        Button button5 = findViewById(R.id.button5);
+        Button skip  = findViewById(R.id.skip);
 
-        // Set OnClickListener to the button
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Start a new activity that uses dashboard2.xml
                 Intent intent = new Intent(dashboard2.this, dashboard3.class);
                 startActivity(intent);
+
+            }
+        });
+        skip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Start a new activity that uses dashboard2.xml
+                Intent intent = new Intent(dashboard2.this, home.class);
+                startActivity(intent);
             }
         });
     }
 }
+

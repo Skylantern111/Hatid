@@ -16,13 +16,21 @@ public class welcome extends AppCompatActivity {
 
         // Button reference
         Button button5 = findViewById(R.id.button5); // Ensure this matches XML
-
+        Button skip = findViewById(R.id.skip);
         // Set OnClickListener to the button
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Start a new activity that uses dashboard2.xml
                 Intent intent = new Intent(welcome.this, dashboard2.class);
+                startActivity(intent);
+            }
+        });
+        skip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Start a new activity that uses dashboard2.xml
+                Intent intent = new Intent(welcome.this, home.class);
                 startActivity(intent);
             }
         });
