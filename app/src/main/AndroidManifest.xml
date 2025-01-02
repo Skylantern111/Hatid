@@ -66,10 +66,11 @@
             android:name=".cash"
             android:exported="true" />
         <activity
-            android:name=".promo"             
+            android:name=".promo"
             android:exported="true" />
-       
 
+        <activity android:name=".settings"
+        android:exported="true" />
 
 
         <meta-data

@@ -9,44 +9,33 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="403dp"
-        android:layout_height="400dp"
+        android:layout_width="365dp"
+        android:layout_height="383dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/front"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.114" />
+        app:layout_constraintVertical_bias="0.143" />
 
     <TextView
         android:id="@+id/center_text"
-        android:layout_width="130dp"
-        android:layout_height="39dp"
+        android:layout_width="158dp"
+        android:layout_height="45dp"
         android:layout_centerInParent="true"
+        android:fontFamily="@font/poppins_black"
         android:text="WELCOME"
         android:textColor="@android:color/black"
-        android:textSize="24sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.569" />
-
-    <TextView
-        android:id="@+id/center_text2"
-        android:layout_width="175dp"
-        android:layout_height="25dp"
-        android:layout_centerInParent="true"
-        android:text="belat belat belat"
-        android:textColor="@android:color/black"
-        android:textSize="21sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.62" />
+        app:layout_constraintVertical_bias="0.565" />
 
     <Button
         android:id="@+id/logbtn"
@@ -56,9 +45,11 @@
         android:layout_centerHorizontal="true"
         android:background="@drawable/transparent_button_with_border"
         android:elevation="0dp"
+        android:fontFamily="@font/poppins_light"
+
         android:text="Log In"
         android:textColor="#000000"
-        android:textSize="21sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -72,7 +63,9 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="@drawable/rounded_button"
+        android:fontFamily="@font/poppins_light"
         android:text="Create an Account"
+
         android:textColor="#000000"
         android:textSize="21sp"
         app:layout_constraintBottom_toBottomOf="parent"

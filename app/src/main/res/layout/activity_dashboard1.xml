@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="382dp"
-        android:layout_height="473dp"
+        android:layout_width="385dp"
+        android:layout_height="490dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/image"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -25,7 +25,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:background="@android:color/transparent"
+        android:fontFamily="@font/poppins_light"
         android:text="Skip"
+
         android:textColor="#0b9830"
         android:textSize="19sp"
         android:textStyle="bold"
@@ -43,9 +45,11 @@
         android:layout_height="33dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_light"
         android:gravity="center_horizontal"
         android:text="Anywhere you are "
         android:textSize="22sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -55,35 +59,39 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="316dp"
-        android:layout_height="60dp"
+        android:layout_width="321dp"
+        android:layout_height="77dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_light"
         android:gravity="center_horizontal"
         android:text="Book your car today and enjoy a hassle-free ride whenever you need it."
-        android:textSize="15sp"
+        android:textSize="18sp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.611" />
+        app:layout_constraintVertical_bias="0.636" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="79dp"
-        android:layout_height="86dp"
+        android:layout_width="71dp"
+        android:layout_height="74dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="@drawable/arrowbtn"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp" 
+        android:fontFamily="@font/poppins_light"
         android:text=">"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.821" />
+        app:layout_constraintVertical_bias="0.8" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

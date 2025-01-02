@@ -9,6 +9,7 @@
     <!-- Back Button -->
     <Button
         android:id="@+id/backbtn"
+        android:fontFamily="@font/poppins_light"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -16,6 +17,7 @@
         android:padding="0dp"
         android:text="Back"
         android:textColor="#0b9830"
+
         android:textSize="19sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -65,21 +67,23 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <!-- Sign Up Header -->
+
+
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="324dp"
-        android:layout_height="52dp"
+        android:layout_width="331dp"
+        android:layout_height="47dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_light"
         android:text="Sign up with your phone number"
-        android:textSize="22sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintHorizontal_bias="0.537"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.122" />
-
+        app:layout_constraintVertical_bias="0.125" />
 
     <Button
         android:id="@+id/button"
@@ -89,6 +93,7 @@
         android:layout_centerHorizontal="true"
         android:background="@drawable/rounded_button"
         android:text="Submit"
+        android:fontFamily="@font/poppins_light"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -123,6 +128,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="or"
+        android:fontFamily="@font/poppins_light"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -133,16 +139,16 @@
 
     <TextView
         android:id="@+id/terms_text"
-        android:layout_width="374dp"
-        android:layout_height="36dp"
-        android:text="By signing up, you agree to the Terms of Service and
-         Privacy Policy."
+        android:layout_width="363dp"
+        android:layout_height="40dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="By signing up, you agree to the Terms of Service
+         and Privacy Policy."
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.397" />
+        app:layout_constraintVertical_bias="0.403" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,6 +9,14 @@
     android:id="@+id/drawer_layout"
     tools:openDrawer="start">
 
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/toolbar_menu"
+        tools:ignore="MissingConstraints"
+        android:layout_gravity="start"/>
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -156,6 +164,7 @@
                 android:background="@android:color/transparent"
                 android:clickable="true"
                 android:text="Cash"
+                android:fontFamily="@font/poppins_light"
                 android:textColor="#0000FF"
                 android:textSize="15sp" />
         </LinearLayout>
@@ -181,9 +190,10 @@
                 android:layout_marginStart="8dp"
                 android:background="@android:color/transparent"
                 android:clickable="true"
+                android:fontFamily="@font/poppins_light"
                 android:text="Promo"
                 android:textColor="#0000FF"
-                android:textSize="15sp" />
+                android:textSize="16sp" />
         </LinearLayout>
 
         <!-- Notes to Driver Link -->
@@ -207,6 +217,7 @@
                 android:layout_marginStart="8dp"
                 android:background="@android:color/transparent"
                 android:clickable="true"
+                android:fontFamily="@font/poppins_light"
                 android:text="Notes "
                 android:textColor="#0000FF"
                 android:textSize="15sp" />
@@ -232,6 +243,7 @@
         android:layout_marginHorizontal="16dp"
         android:backgroundTint="#00C853"
         android:text="Book"
+        android:fontFamily="@font/poppins_light"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -242,14 +254,6 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-    <com.google.android.material.navigation.NavigationView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:id="@+id/nav_view"
-        app:headerLayout="@layout/header"
-        app:menu="@menu/toolbar_menu"
-        tools:ignore="MissingConstraints"
-        android:layout_gravity="start"/>
 
 
 </androidx.drawerlayout.widget.DrawerLayout>

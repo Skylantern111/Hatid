@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     android:padding="16dp">
 
-    <!-- Back Arrow and Title -->
     <ImageView
         android:id="@+id/backArrow"
         android:layout_width="24dp"
@@ -32,66 +31,51 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <!-- Search Bar -->
-
-    <!-- GCash Option -->
 
     <TextView
-        android:id="@+id/title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:layout_width="244dp"
+        android:layout_height="41dp"
         android:fontFamily="@font/poppins_light"
-        android:text="Offers"
-        android:textSize="20sp"
+        android:gravity="center"
+        android:text="Delete Account"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.035" />
+        app:layout_constraintVertical_bias="0.077" />
 
-    <EditText
-        android:id="@+id/searchBar"
-        android:layout_width="379dp"
-        android:layout_height="wrap_content"
-        android:drawablePadding="8dp"
-        android:hint="Enter promo or gift code here"
-        android:padding="12dp"
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="352dp"
+        android:layout_height="362dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="  Are you sure you want to delete your account? Please read how account deletion will affect.
+Deleting your account removes personal information our database. Tour email becomes permanently reserved and same email cannot be re-use to register a new account."
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.132" />
+        app:layout_constraintVertical_bias="0.379" />
 
-    <ImageView
-        android:id="@+id/gcashIcon"
-        android:layout_width="49dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="28dp"
-        android:src="@drawable/ic_gcash"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/searchBar" />
-
-    <TextView
-        android:id="@+id/gcashText"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:text="Mi-Ligayang Surprise!"
+    <Button
+        android:id="@+id/deleteacct"
+        android:layout_width="330dp"
+        android:layout_height="53dp"
         android:fontFamily="@font/poppins_light"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@id/gcashIcon"
-        app:layout_constraintEnd_toStartOf="@id/gcashRadio"
-        app:layout_constraintStart_toEndOf="@id/gcashIcon"
-        app:layout_constraintTop_toTopOf="@id/gcashIcon" />
-
-    <RadioButton
-        android:id="@+id/gcashRadio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:text="Delete Account"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/gcashIcon" />
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.814" />
+
+    <!-- Buttons with smaller text and space for icons on the right -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

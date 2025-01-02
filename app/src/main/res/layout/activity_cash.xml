@@ -1,8 +1,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:padding="16dp">
 
     <!-- Back Arrow and Title -->
@@ -10,88 +10,47 @@
         android:id="@+id/backArrow"
         android:layout_width="24dp"
         android:layout_height="24dp"
-        android:src="@drawable/ic_back_arrow"
         android:clickable="true"
-        android:focusable="true"
         android:contentDescription="Back"
+        android:focusable="true"
+        android:src="@drawable/ic_back_arrow"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Linked Methods Section -->
+
+    <!-- GCash Option -->
+    <!-- Cash Option -->
 
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_light"
         android:text="Payment Methods"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@id/backArrow"
-        app:layout_constraintTop_toTopOf="@id/backArrow"
-        app:layout_constraintBottom_toBottomOf="@id/backArrow"
-        android:layout_marginStart="8dp" />
-
-    <!-- Linked Methods Section -->
-    <TextView
-        android:id="@+id/linkedMethodsLabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Linked Methods"
-        android:textSize="14sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/title"
-        android:layout_marginTop="16dp" />
-
-    <!-- GCash Option -->
-
-    <ImageView
-        android:id="@+id/gcashIcon"
-        android:layout_width="41dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="8dp"
-        android:src="@drawable/ic_gcash"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/linkedMethodsLabel" />
-
-    <TextView
-        android:id="@+id/gcashText"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="GCash"
-        android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@id/gcashIcon"
-        app:layout_constraintTop_toTopOf="@id/gcashIcon"
-        app:layout_constraintBottom_toBottomOf="@id/gcashIcon"
-        android:layout_marginStart="8dp" />
-
-
-
-    <RadioButton
-        android:id="@+id/gcashRadio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/gcashIcon" />
-
-    <!-- Maya Option -->
-    <ImageView
-        android:id="@+id/mayaIcon"
-        android:layout_width="41dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="8dp"
-        android:src="@drawable/ic_maya"
+        app:layout_constraintHorizontal_bias="0.598"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/gcashIcon" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.021" />
 
     <TextView
-        android:id="@+id/mayaText"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Maya"
-        android:textSize="16sp"
-        android:layout_marginStart="8dp"
-        app:layout_constraintStart_toEndOf="@id/mayaIcon"
-        app:layout_constraintTop_toTopOf="@id/mayaIcon"
-        app:layout_constraintBottom_toBottomOf="@id/mayaIcon" />
+        android:id="@+id/cashText"
+        android:layout_width="65dp"
+        android:layout_height="19dp"
+        android:text="Cash"
+        android:textSize="17sp"
+        android:fontFamily="@font/poppins_light"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.376" />
 
     <RadioButton
         android:id="@+id/mayaRadio"
@@ -100,37 +59,116 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/mayaIcon" />
 
-    <!-- Cash Option -->
+    <TextView
+        android:id="@+id/linkedMethodsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_light"
+        android:text="Linked Methods"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.097" />
+
+    <TextView
+        android:id="@+id/linkedMethodsLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_light"
+        android:text="Back"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/mayaText"
+        android:layout_width="96dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Maya"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.278" />
 
     <ImageView
         android:id="@+id/cashIcon"
-        android:layout_width="36dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="68dp"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
         android:src="@drawable/ic_cash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.027"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/gcashIcon" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.376" />
+
+    <ImageView
+        android:id="@+id/mayaIcon"
+        android:layout_width="56dp"
+        android:layout_height="52dp"
+        android:src="@drawable/ic_maya"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/mayaRadio"
+        app:layout_constraintHorizontal_bias="0.006"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.276" />
+
+    <ImageView
+        android:id="@+id/gcashIcon"
+        android:layout_width="50dp"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_gcash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.006"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.171" />
 
     <TextView
-        android:id="@+id/cashText"
-        android:layout_width="0dp"
+        android:id="@+id/gcashText"
+        android:layout_width="89dp"
+        android:layout_height="35dp"
+        android:text="GCash"
+        android:textSize="17sp"
+        android:fontFamily="@font/poppins_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185" />
+
+    <RadioButton
+        android:id="@+id/gcashRadio"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:text="Cash"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@id/cashIcon"
-        app:layout_constraintEnd_toStartOf="@id/cashRadio"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@id/cashIcon"
-        app:layout_constraintTop_toTopOf="@id/cashIcon"
-        app:layout_constraintVertical_bias="1.0" />
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/gcashIcon" />
 
     <RadioButton
         android:id="@+id/cashRadio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/cashIcon" />
 
     <!-- Add Methods Section -->
