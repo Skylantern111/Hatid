@@ -93,6 +93,23 @@
         <activity
             android:name=".profile"
             android:exported="true" />
+        <activity
+            android:name=".a_example"
+            android:exported="true" />
+        <activity
+            android:name=".a_help"
+            android:exported="true" />
+        <activity
+            android:name=".a_setpass"
+            android:exported="true" />
+        <activity
+            android:name=".aboutus"
+            android:exported="true" />
+        <activity
+            android:name=".complain"
+            android:exported="true" />
+   
+
 
 
         <meta-data
