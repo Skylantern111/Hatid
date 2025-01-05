@@ -39,7 +39,7 @@
         android:fontFamily="@font/poppins_light"
         android:gravity="center"
         android:text="Delete Account"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -55,7 +55,7 @@
         android:fontFamily="@font/poppins_light"
         android:text="  Are you sure you want to delete your account? Please read how account deletion will affect.
 Deleting your account removes personal information our database. Tour email becomes permanently reserved and same email cannot be re-use to register a new account."
-        android:textSize="20sp"
+        android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

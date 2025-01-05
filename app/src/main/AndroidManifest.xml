@@ -12,7 +12,7 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_logo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -69,8 +69,30 @@
             android:name=".promo"
             android:exported="true" />
 
-        <activity android:name=".settings"
-        android:exported="true" />
+        <activity
+            android:name=".settings"
+            android:exported="true" />
+
+        <activity
+            android:name=".s_changelang"
+            android:exported="true" />
+
+        <activity
+            android:name=".s_changepass"
+            android:exported="true" />
+        <activity
+            android:name=".s_contactus"
+            android:exported="true" />
+        <activity
+            android:name=".s_delete"
+            android:exported="true" />
+        <activity
+            android:name=".s_privacy"
+            android:exported="true" />
+
+        <activity
+            android:name=".profile"
+            android:exported="true" />
 
 
         <meta-data
