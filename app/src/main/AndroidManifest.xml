@@ -108,7 +108,18 @@
         <activity
             android:name=".complain"
             android:exported="true" />
-   
+        
+        <activity
+            android:name=".act_booking"
+            android:exported="true" />
+
+        <activity
+            android:name=".history"
+            android:exported="true" />
+        <activity
+            android:name=".history2"
+            android:exported="true" />
+
 
 
 
