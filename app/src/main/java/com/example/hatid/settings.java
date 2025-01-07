@@ -32,58 +32,44 @@ public class settings extends AppCompatActivity {
             }
         });
 
-        Changepass.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(settings.this, s_changepass.class);
-                startActivity(intent);
-                finish();
-            }
+        // About Button Click Listener
+        Changepass.setOnClickListener(v -> {
+            Intent intent = new Intent(settings.this, s_changepass.class); 
+            startActivity(intent);
         });
 
-        Changelang.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(settings.this, s_changelang.class);
-                startActivity(intent);
-                finish();
-            }
+
+
+
+        Changelang.setOnClickListener(v -> {
+            Intent intent = new Intent(settings.this, s_changelang.class);
+            startActivity(intent);
+            finish();
         });
 
-        privacy.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(settings.this, s_privacy.class);
-                startActivity(intent);
-                finish();
-            }
+        privacy.setOnClickListener(v -> {
+            Intent intent = new Intent(settings.this, s_privacy.class);
+            startActivity(intent);
+            finish();
         });
 
-        Contact.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(settings.this, s_contactus.class);
-                startActivity(intent);
-                finish();
-            }
+        Contact.setOnClickListener(v -> {
+            Intent intent = new Intent(settings.this, s_contactus.class);
+            startActivity(intent);
+            finish();
         });
 
-        delete.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(settings.this, s_delete.class);
-                startActivity(intent);
-                finish();
-            }
+        delete.setOnClickListener(v -> {
+            Intent intent = new Intent(settings.this, s_delete.class);
+            startActivity(intent);
+            finish();
         });
 
-        booking.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(settings.this, act_booking.class);
-                startActivity(intent);
-                finish();
-            }
+        booking.setOnClickListener(v -> {
+            Intent intent = new Intent(settings.this, act_booking.class);
+            startActivity(intent);
+            finish();
         });
+
     }
 }

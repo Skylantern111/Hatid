@@ -92,29 +92,27 @@ public class home extends AppCompatActivity implements OnMapReadyCallback {
             // Show the dialog
             dialog.show();
         });
-
-        // Set onClick listener for pickup location input
-        pickupLocationInput.setOnClickListener(v -> {
-            String location = pickupLocationInput.getText().toString();
-            if (!location.isEmpty()) {
-                // Example location for pickup
-                LatLng pickupLocation = new LatLng(-34, 151); // Replace with actual geolocation logic
-                mMap.addMarker(new MarkerOptions().position(pickupLocation).title("Pickup Location"));
-                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(pickupLocation, 12));
+        // Set onClickListener for the pickup EditText
+        pickupLocationInput.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(home.this, location.class);
+                intent.putExtra("EDIT_TEXT_ID", "pickup"); // Pass the identifier for the clicked field
+                startActivity(intent);
             }
         });
 
-        // Set onClick listener for drop-off location input
-        dropoffLocationInput.setOnClickListener(v -> {
-            String location = dropoffLocationInput.getText().toString();
-            if (!location.isEmpty()) {
-                // Example location for drop-off
-                LatLng dropoffLocation = new LatLng(-33.9, 151.2); // Replace with actual geolocation logic
-                mMap.addMarker(new MarkerOptions().position(dropoffLocation).title("Drop-off Location"));
-                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(dropoffLocation, 12));
+        // Set onClickListener for the dropoff EditText
+        dropoffLocationInput.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(home.this, location.class);
+                intent.putExtra("EDIT_TEXT_ID", "dropoff"); 
+                startActivity(intent);
             }
         });
     }
+
 
     @Override
     public void onMapReady(GoogleMap googleMap) {

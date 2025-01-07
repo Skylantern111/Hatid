@@ -23,8 +23,6 @@ public class Login extends AppCompatActivity {
         Button loginButton = findViewById(R.id.button);
         Button signupButton = findViewById(R.id.button2);
 
-        // Example: Set text for TextView
-        textView3.setText("Please enter your phone number:");
 
         // Set OnClickListener for login button
         loginButton.setOnClickListener(v -> {

@@ -119,6 +119,13 @@
         <activity
             android:name=".history2"
             android:exported="true" />
+        <activity
+            android:name=".location"
+            android:exported="true" />
+        <activity
+            android:name=".loc2"
+            android:exported="true" />
+
 
 
 
