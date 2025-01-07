@@ -29,7 +29,8 @@ public class dashboard2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Start a new activity that uses dashboard2.xml
-                Intent intent = new Intent(dashboard2.this, home.class);
+                Intent intent = new Intent(dashboard2.this, t_home
+                        .class);
                 startActivity(intent);
             }
         });

@@ -129,7 +129,7 @@
 
     <ImageView
         android:id="@+id/gcashIcon"
-        android:layout_width="50dp"
+        android:layout_width="60dp"
         android:layout_height="56dp"
         android:src="@drawable/ic_gcash"
         app:layout_constraintBottom_toBottomOf="parent"

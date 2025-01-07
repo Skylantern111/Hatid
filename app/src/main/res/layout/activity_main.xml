@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.476"
-        app:srcCompat="@drawable/ic_logo" />
+        app:srcCompat="@drawable/sundo" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 

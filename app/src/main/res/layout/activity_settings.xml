@@ -15,27 +15,8 @@
         android:layout_centerHorizontal="true"
         android:background="@drawable/transparent_button_with_border"
         android:elevation="0dp"
+        android:fontFamily="@font/poppins_light"
         android:text="Delete Account"
-        android:fontFamily="@font/poppins_light"
-        android:textStyle="bold"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.532" />
-
-    <Button
-        android:id="@+id/booking"
-        android:layout_width="337dp"
-        android:layout_height="46dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/transparent_button_with_border"
-        android:elevation="0dp"
-        android:fontFamily="@font/poppins_light"
-        android:text="Booking"
         android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -43,7 +24,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.624" />
+        app:layout_constraintVertical_bias="0.592" />
 
     <TextView
         android:id="@+id/linkedMethodsLabel2"
@@ -55,17 +36,18 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.035" />
+
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Settings"
         android:fontFamily="@font/poppins_light"
+        android:text="Settings"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -73,28 +55,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.035" />
-
-    <Button
-        android:id="@+id/Changelang"
-        android:layout_width="337dp"
-        android:layout_height="46dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/transparent_button_with_border"
-        android:drawablePadding="8dp"
-        android:textStyle="bold"
-
-        android:elevation="0dp"
-        android:text="Change Language"
-        android:fontFamily="@font/poppins_light"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.222" />
+        app:layout_constraintVertical_bias="0.113" />
 
     <Button
         android:id="@+id/privacy"
@@ -105,17 +66,17 @@
         android:background="@drawable/transparent_button_with_border"
         android:drawablePadding="8dp"
         android:elevation="0dp"
-        android:textStyle="bold"
+        android:fontFamily="@font/poppins_light"
 
         android:text="Privacy Policy"
-        android:fontFamily="@font/poppins_light"
         android:textColor="#000000"
         android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.323" />
+        app:layout_constraintVertical_bias="0.313" />
 
     <Button
         android:id="@+id/Contact"
@@ -126,16 +87,16 @@
         android:background="@drawable/transparent_button_with_border"
         android:drawablePadding="8dp"
         android:elevation="0dp"
-        android:text="Contact Us"
         android:fontFamily="@font/poppins_light"
-        android:textStyle="bold"
+        android:text="Contact Us"
         android:textColor="#000000"
         android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.422" />
+        app:layout_constraintVertical_bias="0.407" />
 
     <Button
         android:id="@+id/Changepass"
@@ -143,25 +104,26 @@
         android:layout_height="46dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:textStyle="bold"
         android:background="@drawable/transparent_button_with_border"
         android:drawablePadding="8dp"
         android:elevation="0dp"
-        android:text="Change Password"
         android:fontFamily="@font/poppins_light"
-
+        android:text="Change Password"
         android:textColor="#000000"
+
         android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.125" />
+        app:layout_constraintVertical_bias="0.218" />
 
     <ImageView
         android:id="@+id/backArrow"
         android:layout_width="24dp"
         android:layout_height="24dp"
+        android:layout_marginTop="24dp"
         android:clickable="true"
         android:contentDescription="Back"
         android:focusable="true"
@@ -169,6 +131,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Buttons with smaller text and space for icons on the right -->
 
+    <Button
+        android:id="@+id/a_about"
+        android:layout_width="337dp"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/transparent_button_with_border"
+        android:drawablePadding="8dp"
+        android:elevation="0dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="About Us"
+        android:textColor="#000000"
+
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
 </androidx.constraintlayout.widget.ConstraintLayout>

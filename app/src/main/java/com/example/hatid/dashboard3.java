@@ -20,7 +20,7 @@ public class dashboard3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Start a new activity that uses dashboard2.xml
-                Intent intent = new Intent(dashboard3.this, home.class);
+                Intent intent = new Intent(dashboard3.this, t_home.class);
                 startActivity(intent);
             }
         });
@@ -29,7 +29,7 @@ public class dashboard3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Start a new activity that uses dashboard2.xml
-                Intent intent = new Intent(dashboard3.this, home.class);
+                Intent intent = new Intent(dashboard3.this, dashboard2.class);
                 startActivity(intent);
             }
         });

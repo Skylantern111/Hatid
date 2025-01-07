@@ -13,6 +13,7 @@
         android:id="@+id/backArrow"
         android:layout_width="24dp"
         android:layout_height="24dp"
+        android:layout_marginTop="48dp"
         android:clickable="true"
         android:contentDescription="Back"
         android:focusable="true"
@@ -30,10 +31,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintHorizontal_bias="0.108"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.071" />
 
     <TextView
         android:id="@+id/title"
@@ -50,23 +51,26 @@
         app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.083" />
+        app:layout_constraintVertical_bias="0.179" />
 
     <EditText
         android:id="@+id/pickupLocationInput2"
-        android:layout_width="352dp"
-        android:layout_height="131dp"
+        android:layout_width="321dp"
+        android:layout_height="245dp"
         android:layout_weight="1"
         android:background="@drawable/transparent_button_with_border"
+        android:gravity="top|start"
         android:hint="Write your complain "
+        android:lines="5"
+        android:maxLength="60"
         android:padding="8dp"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintHorizontal_bias="0.413"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.265" />
+        app:layout_constraintVertical_bias="0.477" />
 
     <Button
         android:id="@+id/submitchange"
@@ -78,7 +82,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.978" />
+        app:layout_constraintVertical_bias="0.948" />
     <!-- Buttons with smaller text and space for icons on the right -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

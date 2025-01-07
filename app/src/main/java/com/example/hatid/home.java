@@ -60,7 +60,7 @@ public class home extends AppCompatActivity implements OnMapReadyCallback {
         }
 
         // Set click listeners for links
-        bookButton.setOnClickListener(v -> startActivity(new Intent(home.this, settings.class)));
+        bookButton.setOnClickListener(v -> startActivity(new Intent(home.this, location.class)));
 
         cashLink.setOnClickListener(v -> startActivity(new Intent(home.this, cash.class)));
 

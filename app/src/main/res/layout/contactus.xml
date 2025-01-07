@@ -9,21 +9,25 @@
 
     <!-- Back Arrow and Title -->
 
+
     <EditText
-        android:id="@+id/pickupLocationInput3"
-        android:layout_width="332dp"
-        android:layout_height="213dp"
+        android:id="@+id/pickupLocationInput2"
+        android:layout_width="321dp"
+        android:layout_height="245dp"
         android:layout_weight="1"
         android:background="@drawable/transparent_button_with_border"
-        android:hint="Write your text"
+        android:gravity="top|start"
+        android:hint="Write your complain "
+        android:lines="5"
+        android:maxLength="60"
         android:padding="8dp"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintHorizontal_bias="0.586"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.74" />
+        app:layout_constraintVertical_bias="0.779" />
 
     <ImageView
         android:id="@+id/backArrow"
@@ -58,7 +62,7 @@
         android:layout_gravity="center_horizontal"
         android:fontFamily="@font/poppins_light"
         android:gravity="center"
-        android:text="Change Password"
+        android:text="Contact Us"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -79,10 +83,10 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.793"
+        app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.448" />
+        app:layout_constraintVertical_bias="0.423" />
 
     <EditText
         android:id="@+id/pickupLocationInput4"
@@ -95,10 +99,10 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.758"
+        app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.235" />
+        app:layout_constraintVertical_bias="0.205" />
 
     <EditText
         android:id="@+id/pickupLocationInput2"
@@ -111,10 +115,10 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.766"
+        app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.339" />
+        app:layout_constraintVertical_bias="0.308" />
 
     <Button
         android:id="@+id/submitchange"

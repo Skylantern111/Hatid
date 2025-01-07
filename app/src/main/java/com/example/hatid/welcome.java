@@ -30,7 +30,7 @@ public class welcome extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Start a new activity that uses dashboard2.xml
-                Intent intent = new Intent(welcome.this, home.class);
+                Intent intent = new Intent(welcome.this, t_home.class);
                 startActivity(intent);
             }
         });
