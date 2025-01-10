@@ -1,0 +1,25 @@
+<!-- dialog_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Gradient background -->
+    <gradient
+        android:angle="45"
+        android:startColor="#008955"
+    android:endColor="#00C853"      
+    android:gradientRadius="45%"
+    android:type="linear" />
+
+    <!-- Rounded corners -->
+    <corners android:radius="16dp" />
+
+    <!-- Optional border -->
+    <stroke
+        android:width="2dp"
+        android:color="#FFFFFF" />  <!-- White border -->
+
+    <!-- Padding around the content -->
+    <padding
+        android:bottom="16dp"
+        android:left="16dp"
+        android:right="16dp"
+        android:top="16dp" />
+</shape>

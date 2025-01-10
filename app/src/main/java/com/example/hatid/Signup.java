@@ -26,13 +26,6 @@ public class Signup extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Create an intent to navigate to the Login activity
-                Intent intent = new Intent(Signup.this, a_example.class);
-                startActivity(intent);
-            }
-        });
+
     }
 }

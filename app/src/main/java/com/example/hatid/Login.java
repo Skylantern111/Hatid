@@ -27,7 +27,7 @@ public class Login extends AppCompatActivity {
         // Set OnClickListener for login button
         loginButton.setOnClickListener(v -> {
             // Navigate to OTP Activity
-            Intent intent = new Intent(Login.this, Otp.class);
+            Intent intent = new Intent(Login.this, welcome.class);
             startActivity(intent);
         });
 

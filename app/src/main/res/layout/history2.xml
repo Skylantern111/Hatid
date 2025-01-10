@@ -616,7 +616,7 @@
                     android:layout_width="274dp"
                     android:layout_height="20dp"
                     android:fontFamily="@font/poppins_light"
-                    android:text="To Bading Street"
+                    android:text="To Cabase Street"
                     android:textColor="#777777"
                     android:textSize="14sp"
                     app:layout_constraintEnd_toEndOf="@id/notificationTitle"

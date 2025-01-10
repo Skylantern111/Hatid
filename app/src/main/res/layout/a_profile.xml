@@ -40,7 +40,7 @@
         android:layout_width="130dp"
         android:layout_height="109dp"
         android:contentDescription="Pickup Icon"
-        android:src="@drawable/ic_me"
+        android:src="@drawable/pro"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

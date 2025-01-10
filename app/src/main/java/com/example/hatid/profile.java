@@ -23,7 +23,7 @@ public class profile extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Navigate back to the Home activity
-                Intent intent = new Intent(profile.this, a_example.class);
+                Intent intent = new Intent(profile.this, t_home.class);
                 startActivity(intent);
                 finish(); // Optional: Close the current activity
             }
